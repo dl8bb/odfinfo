@@ -10,6 +10,7 @@ sudo apt install libgtk-4-dev libgraphene-1.0-0 libatk-bridge2.0-0 libnss3 libxs
 
 echo "📄 Erzeuge die Datei mit den Python-Abhängigkeiten..."
 echo "playwright>=1.44" > requirements.txt
+echo "requests" >> requirements.txt
 
 echo "📦 Erstelle Python Virtual Environment..."
 python3 -m venv venv
